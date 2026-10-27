@@ -1,0 +1,14 @@
+{
+  "report_date_local": "2026-10-27",
+  "recorded_at_utc": "2026-10-27T11:03:16.335857+00:00",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.9",
+  "python_implementation": "CPython",
+  "python_executable": "E:\\Verilog\\tools\\ucrt64\\bin\\python.exe",
+  "sqlite": "3.47.2",
+  "node": "v24.15.0",
+  "playwright": "1.62.1",
+  "browser": "System Chrome",
+  "browser_product_version": "155.0.8059.86",
+  "browser_executable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+}

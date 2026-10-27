@@ -1,0 +1,8 @@
+# Python 3.11+; no third-party runtime packages or AI key required.
+# These are environment-variable examples; this file is not loaded automatically.
+# PowerShell: $env:CAMPUS_PORT='8000'; python app.py
+CAMPUS_HOST=127.0.0.1
+CAMPUS_PORT=8000
+CAMPUS_DB=data/campus.sqlite3
+# CLI arguments override the corresponding variables:
+# python app.py --port 8001 --db data/demo.sqlite3

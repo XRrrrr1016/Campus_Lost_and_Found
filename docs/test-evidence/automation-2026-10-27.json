@@ -1,0 +1,64 @@
+{
+  "report_date_local": "2026-10-27",
+  "results": [
+    {
+      "name": "unittest",
+      "command": [
+        "E:\\Verilog\\tools\\ucrt64\\bin\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "started_at_utc": "2026-10-27T11:03:16.469872+00:00",
+      "duration_seconds": 19.186,
+      "exit_code": 0,
+      "log": "unittest-2026-10-27.txt"
+    },
+    {
+      "name": "ai-evaluation",
+      "command": [
+        "E:\\Verilog\\tools\\ucrt64\\bin\\python.exe",
+        "scripts/evaluate_ai.py",
+        "--output",
+        "docs/ai-evaluation.json"
+      ],
+      "started_at_utc": "2026-10-27T11:03:35.657166+00:00",
+      "duration_seconds": 0.076,
+      "exit_code": 0,
+      "log": "ai-evaluation-2026-10-27.txt"
+    },
+    {
+      "name": "javascript-syntax",
+      "command": [
+        "node",
+        "--check",
+        "src/static/app.js"
+      ],
+      "started_at_utc": "2026-10-27T11:03:35.733826+00:00",
+      "duration_seconds": 0.064,
+      "exit_code": 0,
+      "log": "javascript-syntax-2026-10-27.txt"
+    },
+    {
+      "name": "python-compile",
+      "command": [
+        "E:\\Verilog\\tools\\ucrt64\\bin\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "app.py",
+        "src",
+        "tests",
+        "scripts"
+      ],
+      "started_at_utc": "2026-10-27T11:03:35.799236+00:00",
+      "duration_seconds": 0.19,
+      "exit_code": 0,
+      "log": "python-compile-2026-10-27.txt"
+    }
+  ],
+  "passed": true
+}

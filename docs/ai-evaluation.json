@@ -1,0 +1,214 @@
+{
+  "engine_version": "offline-text-v2",
+  "generated_at": "2026-10-27T11:03:35.726307+00:00",
+  "total": 12,
+  "passed": 12,
+  "pass_rate": 1.0,
+  "criteria": "Score range + confidence + nonempty explanation; all cases must pass.",
+  "details": [
+    {
+      "name": "同地点同特征校园卡",
+      "label": "correct",
+      "passed": true,
+      "result": {
+        "score": 100.0,
+        "confidence": "high",
+        "fields": {
+          "category": 1.0,
+          "location": 1.0,
+          "color": 1.0,
+          "text": 1.0,
+          "time": 1.0
+        },
+        "explanation": "类别一致；地点一致；颜色一致；文字描述一致；时间一致。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "地点颜色同义词",
+      "label": "correct",
+      "passed": true,
+      "result": {
+        "score": 100.0,
+        "confidence": "high",
+        "fields": {
+          "category": 1.0,
+          "location": 1.0,
+          "color": 1.0,
+          "text": 1.0,
+          "time": 1.0
+        },
+        "explanation": "类别一致；地点一致；颜色一致；文字描述一致；时间一致。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "一天时间误差",
+      "label": "correct",
+      "passed": true,
+      "result": {
+        "score": 98.93,
+        "confidence": "high",
+        "fields": {
+          "category": 1.0,
+          "location": 1.0,
+          "color": 1.0,
+          "text": 1.0,
+          "time": 0.928571
+        },
+        "explanation": "类别一致；地点一致；颜色一致；文字描述一致；时间一致。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "时间范围重叠",
+      "label": "correct",
+      "passed": true,
+      "result": {
+        "score": 100.0,
+        "confidence": "high",
+        "fields": {
+          "category": 1.0,
+          "location": 1.0,
+          "color": 1.0,
+          "text": 1.0,
+          "time": 1.0
+        },
+        "explanation": "类别一致；地点一致；颜色一致；文字描述一致；时间一致。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "相同描述但颜色不同",
+      "label": "similar_wrong",
+      "passed": true,
+      "result": {
+        "score": 49,
+        "confidence": "low",
+        "fields": {
+          "category": 1.0,
+          "location": 1.0,
+          "color": 0.0,
+          "text": 1.0,
+          "time": 1.0
+        },
+        "explanation": "类别一致；地点一致；颜色存在差异；文字描述一致；时间一致；颜色冲突，降低分数。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "同地点不同类别",
+      "label": "similar_wrong",
+      "passed": true,
+      "result": {
+        "score": 30,
+        "confidence": "low",
+        "fields": {
+          "category": 0.0,
+          "location": 1.0,
+          "color": 1.0,
+          "text": 1.0,
+          "time": 1.0
+        },
+        "explanation": "类别存在差异；地点一致；颜色一致；文字描述一致；时间一致；类别冲突，降低分数。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "相同物品日期差一个月",
+      "label": "similar_wrong",
+      "passed": true,
+      "result": {
+        "score": 49,
+        "confidence": "low",
+        "fields": {
+          "category": 1.0,
+          "location": 1.0,
+          "color": 1.0,
+          "text": 1.0,
+          "time": 0
+        },
+        "explanation": "类别一致；地点一致；颜色一致；文字描述一致；时间存在差异；时间跨度过大。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "相似耳机但颜色冲突",
+      "label": "similar_wrong",
+      "passed": true,
+      "result": {
+        "score": 49,
+        "confidence": "low",
+        "fields": {
+          "category": 1.0,
+          "location": 1.0,
+          "color": 0.0,
+          "text": 1.0,
+          "time": 1.0
+        },
+        "explanation": "类别一致；地点一致；颜色存在差异；文字描述一致；时间一致；颜色冲突，降低分数。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "只有类别",
+      "label": "insufficient",
+      "passed": true,
+      "result": {
+        "score": 25.0,
+        "confidence": "insufficient",
+        "fields": {
+          "category": 1.0,
+          "location": 0.0,
+          "color": 0.0,
+          "text": 0.0,
+          "time": 0.0
+        },
+        "explanation": "类别一致；有效可比字段少于三项，信息不足，拒绝判断归属。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "只有地点颜色",
+      "label": "insufficient",
+      "passed": true,
+      "result": {
+        "score": 35.0,
+        "confidence": "insufficient",
+        "fields": {
+          "category": 0.0,
+          "location": 1.0,
+          "color": 1.0,
+          "text": 0.0,
+          "time": 0.0
+        },
+        "explanation": "地点一致；颜色一致；有效可比字段少于三项，信息不足，拒绝判断归属。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "完全空描述",
+      "label": "insufficient",
+      "passed": true,
+      "result": {
+        "score": 0.0,
+        "confidence": "insufficient",
+        "fields": {
+          "category": 0.0,
+          "location": 0.0,
+          "color": 0.0,
+          "text": 0.0,
+          "time": 0.0
+        },
+        "explanation": "有效可比字段少于三项，信息不足，拒绝判断归属。仅作候选，请核验未公开特征。"
+      }
+    },
+    {
+      "name": "未知字段不当有效证据",
+      "label": "insufficient",
+      "passed": true,
+      "result": {
+        "score": 25.0,
+        "confidence": "insufficient",
+        "fields": {
+          "category": 0.0,
+          "location": 0.0,
+          "color": 0.0,
+          "text": 1.0,
+          "time": 0.0
+        },
+        "explanation": "文字描述一致；有效可比字段少于三项，信息不足，拒绝判断归属。仅作候选，请核验未公开特征。"
+      }
+    }
+  ]
+}

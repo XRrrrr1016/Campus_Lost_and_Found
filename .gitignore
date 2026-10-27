@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+data/
+tmp/
+output/
+.env
+node_modules/
+.venv/
+recordings/*.mp4
+recordings/*.webm
+/*.pdf

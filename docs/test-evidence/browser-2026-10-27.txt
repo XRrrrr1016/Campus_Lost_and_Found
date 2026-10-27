@@ -1,0 +1,7 @@
+Command: ["node", "tests/browser_smoke.cjs"]
+Exit code: 0
+
+[stdout]
+PASS: browser publish/image/filter/match/private-claim/approve/handover/rules/replay/mobile; 0 page errors
+
+[stderr]

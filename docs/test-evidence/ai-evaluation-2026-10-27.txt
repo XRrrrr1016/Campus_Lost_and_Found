@@ -1,0 +1,19 @@
+Command: ["E:\\Verilog\\tools\\ucrt64\\bin\\python.exe", "scripts/evaluate_ai.py", "--output", "docs/ai-evaluation.json"]
+Exit code: 0
+
+[stdout]
+PASS [correct] score=100.0 "\u540c\u5730\u70b9\u540c\u7279\u5f81\u6821\u56ed\u5361"
+PASS [correct] score=100.0 "\u5730\u70b9\u989c\u8272\u540c\u4e49\u8bcd"
+PASS [correct] score=98.93 "\u4e00\u5929\u65f6\u95f4\u8bef\u5dee"
+PASS [correct] score=100.0 "\u65f6\u95f4\u8303\u56f4\u91cd\u53e0"
+PASS [similar_wrong] score=49 "\u76f8\u540c\u63cf\u8ff0\u4f46\u989c\u8272\u4e0d\u540c"
+PASS [similar_wrong] score=30 "\u540c\u5730\u70b9\u4e0d\u540c\u7c7b\u522b"
+PASS [similar_wrong] score=49 "\u76f8\u540c\u7269\u54c1\u65e5\u671f\u5dee\u4e00\u4e2a\u6708"
+PASS [similar_wrong] score=49 "\u76f8\u4f3c\u8033\u673a\u4f46\u989c\u8272\u51b2\u7a81"
+PASS [insufficient] score=25.0 "\u53ea\u6709\u7c7b\u522b"
+PASS [insufficient] score=35.0 "\u53ea\u6709\u5730\u70b9\u989c\u8272"
+PASS [insufficient] score=0.0 "\u5b8c\u5168\u7a7a\u63cf\u8ff0"
+PASS [insufficient] score=25.0 "\u672a\u77e5\u5b57\u6bb5\u4e0d\u5f53\u6709\u6548\u8bc1\u636e"
+AI evaluation: 12/12 passed (100%)
+
+[stderr]

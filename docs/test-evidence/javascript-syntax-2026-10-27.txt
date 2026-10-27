@@ -1,0 +1,6 @@
+Command: ["node", "--check", "src/static/app.js"]
+Exit code: 0
+
+[stdout]
+
+[stderr]

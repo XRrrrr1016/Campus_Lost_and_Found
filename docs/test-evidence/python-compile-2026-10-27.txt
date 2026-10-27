@@ -1,0 +1,6 @@
+Command: ["E:\\Verilog\\tools\\ucrt64\\bin\\python.exe", "-m", "compileall", "-q", "app.py", "src", "tests", "scripts"]
+Exit code: 0
+
+[stdout]
+
+[stderr]

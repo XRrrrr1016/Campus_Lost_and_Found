@@ -1,0 +1,33 @@
+Command: ["E:\\Verilog\\tools\\ucrt64\\bin\\python.exe", "-m", "unittest", "discover", "-s", "tests", "-v"]
+Exit code: 0
+
+[stdout]
+
+[stderr]
+test_concurrent_reviews_have_exactly_one_winner (test_core.CoreTest.test_concurrent_reviews_have_exactly_one_winner) ... ok
+test_duplicate_claim_and_double_approval_prevented (test_core.CoreTest.test_duplicate_claim_and_double_approval_prevented) ... ok
+test_full_handover_links_lost_and_found (test_core.CoreTest.test_full_handover_links_lost_and_found) ... ok
+test_legacy_rule_generates_and_replays_using_legacy_engine (test_core.CoreTest.test_legacy_rule_generates_and_replays_using_legacy_engine) ... ok
+test_old_database_contact_migration_is_idempotent (test_core.CoreTest.test_old_database_contact_migration_is_idempotent) ... ok
+test_ownership_and_role_enforced (test_core.CoreTest.test_ownership_and_role_enforced) ... ok
+test_private_contact_and_feature_never_in_public_output (test_core.CoreTest.test_private_contact_and_feature_never_in_public_output) ... ok
+test_required_fields_dates_and_weights_are_validated (test_core.CoreTest.test_required_fields_dates_and_weights_are_validated) ... ok
+test_rule_history_recomputes_from_immutable_snapshots (test_core.CoreTest.test_rule_history_recomputes_from_immutable_snapshots) ... ok
+test_search_combines_filters_and_soft_delete_persists (test_core.CoreTest.test_search_combines_filters_and_soft_delete_persists) ... ok
+test_secret_answer_cannot_be_a_public_field (test_core.CoreTest.test_secret_answer_cannot_be_a_public_field) ... ok
+test_unlinked_claim_contact_is_private_until_approved (test_core.CoreTest.test_unlinked_claim_contact_is_private_until_approved) ... ok
+test_wrong_feature_cannot_approve_and_rejection_is_audited (test_core.CoreTest.test_wrong_feature_cannot_approve_and_rejection_is_audited) ... ok
+test_login_cookie_and_csrf_are_enforced (test_http.HttpTest.test_login_cookie_and_csrf_are_enforced) ... ok
+test_permissions_errors_and_input_shape (test_http.HttpTest.test_permissions_errors_and_input_shape) ... ok
+test_public_api_masks_sensitive_fields (test_http.HttpTest.test_public_api_masks_sensitive_fields) ... ok
+test_same_origin_validation (test_http.HttpTest.test_same_origin_validation) ... ok
+test_static_frontend_and_path_boundaries (test_http.HttpTest.test_static_frontend_and_path_boundaries) ... ok
+test_labeled_evaluation_corpus (test_matching.MatchingTest.test_labeled_evaluation_corpus) ... ok
+test_legacy_engine_remains_reproducible_after_synonym_fix (test_matching.MatchingTest.test_legacy_engine_remains_reproducible_after_synonym_fix) ... ok
+test_location_synonyms_are_idempotent (test_matching.MatchingTest.test_location_synonyms_are_idempotent) ... ok
+test_submission_contains_startup_entrypoint_and_required_files (test_package.PackageTest.test_submission_contains_startup_entrypoint_and_required_files) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 18.213s
+
+OK

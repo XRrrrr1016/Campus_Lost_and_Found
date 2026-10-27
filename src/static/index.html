@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="校园拾光 · 校园失物招领与智能匹配系统">
+  <title>校园拾光 · 让遗失的美好重新相遇</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a href="#" class="brand" aria-label="校园拾光首页"><span class="brand-icon">拾</span><span>校园拾光<small>CAMPUS LOST & FOUND</small></span></a>
+      <div class="campus"><span class="campus-dot"></span>校园公共服务站 <span class="campus-code">T03</span></div>
+      <div class="nav-caption">工作空间</div>
+      <nav id="navigation" aria-label="主导航">
+        <button data-view="square" class="nav-item active"><span>▦</span>失物招领广场</button>
+        <button data-view="mine" class="nav-item"><span>▤</span>我的发布</button>
+        <button data-view="claims" class="nav-item"><span>⇄</span>认领与交接</button>
+        <button data-view="matching" class="nav-item"><span>✧</span>智能匹配<span class="nav-tag">AI</span></button>
+        <button data-view="admin" class="nav-item admin-only" hidden><span>⚙</span>规则与审计</button>
+      </nav>
+      <div class="sidebar-tip"><span class="tip-symbol">♧</span><strong>每一次拾起，都值得被看见</strong><p>认领前核验私密特征，<br>让善意抵达真正的失主。</p></div>
+      <div id="account" class="account"></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><div><span class="breadcrumb">校园服务</span><span class="breadcrumb-divider">/</span><span id="page-name">失物招领广场</span></div><div class="topbar-right"><span class="local-indicator"></span>本地演示<span class="top-divider"></span><button class="text-button" id="account-button">切换账号</button></div></header>
+      <main id="main" tabindex="-1"></main>
+      <footer>校园拾光 <span>·</span> 让每一件失物，都有回家的路。<span class="footer-right">信息核验后联系 · 文明认领</span></footer>
+    </div>
+  </div>
+  <dialog id="modal"><div id="modal-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
